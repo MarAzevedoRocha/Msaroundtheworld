@@ -1,0 +1,3493 @@
+/*body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}*/
+
+.container{
+    width: 100%;
+    float: left;
+}
+
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+li{
+    list-style: none;
+}
+
+.titulo_home{
+    color: #666666;
+    padding-top:50px;
+    width: calc(100% - 14px);
+    margin: 0 14px;
+    float: left;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header{
+    width: 100%;
+    float: left;
+    height: 768px;
+    display: block;
+}
+
+header nav{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+    height: 60px;
+    position: fixed;
+    display: block;
+    z-index: 999;
+}
+
+#nav_desktop{
+    display: block;
+    z-index: 999;
+}
+
+#nav_mobile{
+    display: none;
+    z-index: 999;
+}
+
+#itens-menu-mobile{
+    display: none;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    background: #284353;
+    width: 100%;
+    height: 417px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+}
+
+#nav_mobile li{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #fff;
+}
+
+#nav_mobile li:hover{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #F4807F;
+    transition: 0.3s;
+}
+
+#nav_mobile #abre_menu{
+    font-size: 40px;
+    color: #fff;
+    float: right;
+    padding: 10px 0;
+    display: block;
+}
+
+#nav_mobile .logotipo_mobile{
+    width: 20%;
+    float:left;
+    height: 50px;
+}
+
+#nav_mobile a{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+header .logotipo{
+    width: 20%;
+    height:80px;
+    float: left;
+}
+
+header .logotipo img{
+    width: 150px;
+    height:60px;
+    float: left;
+}
+
+header .menu{
+    width: 70%;
+    height: 25px;
+    float: right;
+    padding-top:22px;
+}
+
+.menu li{
+    width: 16.66%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    color: #F4807F;
+}
+
+#about{
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+#destinos{
+    width: 100%;
+    float: left;
+    background: grey;
+}
+
+#dicas{
+    width: 100%;
+    background: #fff;
+    float: left;
+}
+
+#inspiracao{
+    width: 100%;
+    background: #fff;
+    float: left;
+    padding-bottom: 50px;
+    display: block;
+}
+
+#inspiracao_mobile{
+    display: none;
+}
+
+.newsletter_footer{
+    width: 100%;
+    background-image: url('../images/vietnam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+#newsletter{
+    width: 100%;
+    padding-bottom: 120px;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    float: left;
+}
+
+header .slider{
+    width: 100%;
+    height: 768px;
+    float: left;
+}
+
+header .slide{
+    width: 100%;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info_slide{
+    padding-top: 291px;
+    height: 250px;
+}
+
+.slide1{
+    background-image: url('../images/slider_home/turquia.jpg');
+}
+
+.slide2{
+    background-image: url('../images/slider_home/rialto_slider.jpg');
+}
+
+.slide3{
+    background-image: url('../images/slider_home/rio_slider.jpg');
+}
+
+.slide4{
+    background-image: url('../images/slider_home/berlin_slider.jpg');
+}
+
+.slide5{
+    background-image: url('../images/slider_home/krka_slider.jpg');
+}
+
+.slide .texto_slide{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    width: calc(100% - 28px);
+    margin: 0 28px; 
+}
+
+header h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    padding: 25px 0;
+}
+
+header h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+header .togle_cenas{
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header .botao_ver_mais{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 130px;
+    text-align: center;
+    border-radius:25px;
+    border: 0.5px solid #FFFFFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 0;
+    margin-left:33px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header .botao_ver_mais .fa-chevron-right{
+    display: none;
+}
+
+header .botao_ver_mais:hover{
+    border: none;
+    background: #F4807F;
+    font-size: 14px;
+    width: 130px;
+    text-align: center;
+    padding: 16px 0;
+    float: right;
+}
+
+header .botao_ver_mais:hover .fa-chevron-right{
+    display: block;
+    float: right;
+    padding-right: 16px;
+}
+
+.slick-dots{
+    bottom: 40px;
+    font-size: 15px;
+}
+
+.slick-dots li button:before {
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #F4807F;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+#about .texto_about{
+    width: calc(100% - 238px);
+    padding-bottom: 100px;
+    margin: 0 119px;    
+    font-family: 'Lato', sans-serif;
+    float: left;
+}
+
+#about .texto_about p{
+    font-size: 16px;
+    line-height: 140%;
+    width: 65%;
+    min-height: 150px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#about .botao_about{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    color: #F4807F;
+    text-decoration: none;
+    padding: 16px 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border: 1px solid #F4807F;
+}
+
+#about .botao_about:hover{
+    color: #fff;
+    background: #F4807F;
+    border: 1px solid #F4807F;
+}
+
+#destinos .caixa_destinos{
+    width: 100%;
+    height: 551px;
+    background-image: url('../images/homepage/rio_destinos_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#destinos .conteudo_destinos{
+    padding-top: 178.5px;
+    height: 194px;
+    width: 514px;
+    padding-left: 119px;
+}
+
+#destinos .conteudo_destinos h3{
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#destinos .conteudo_destinos p{
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 50px;
+}
+
+#destinos .conteudo_destinos a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+#destinos .conteudo_destinos a:hover{
+    border: 1px solid #F4807F;
+    color: #fff;
+    background: #F4807F;
+}
+
+#dicas br{
+    height: 21px;
+}
+
+#dicas .caixa_dicas1, .caixa_dicas2{
+    width: 100%;
+    float: left;
+}
+
+#dicas .caixa_dicas2{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#dicas ul{
+    width: 80%;
+    /*background: grey;*/
+    margin: 0 auto;
+}
+
+#dicas li{
+    width: calc(25% - 28px);
+    float: left;
+    margin: 0 14px;
+    /*background: lightgreen;*/
+}
+
+#dicas li .box_dicas{
+    width: 162px;
+    background: #F4807F;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#dicas li .box_dicas:hover{
+    transform: scale(1.1);
+}
+
+#dicas li a{
+    text-decoration: none;
+}
+
+#dicas li i{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 51px 58.5px;
+}
+
+#dicas li img{
+    color: #fff;
+    height: 66.7px;
+    width: 75px;
+    text-align: center;
+    padding: 47.65px 43.5px;
+}
+
+#dicas li h6{
+    padding-top: 25px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#dicas li p{
+    padding-top: 10px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+#inspiracao .caixa_inspiracao {
+    width: calc(100% - 238px);
+    height: 262px;
+    float: left;
+    padding: 0 119px;
+}
+
+#inspiracao .caixa_inspiracao2 {
+    width: calc(100% - 238px);
+    height: 400px;
+    float: left;
+    padding: 25px 119px;
+}
+
+#inspiracao a{
+    text-decoration: none;
+}
+
+#inspiracao .imagem_inspiracao1{
+    width: calc(70% - 14px);
+    height: 262px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/buzios.jpg);
+    background-repeat: no-repeat;
+    margin-right: 14px;
+    border-radius: 5px;
+    float: left;
+    background-size: cover;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao1:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao ul .imagem_inspiracao2{
+    width: 30%;
+    height: 262px;
+    overflow: hidden;
+    background-image: url('../images/inspiracao_home/auschwitz.jpg');
+    background-repeat: no-repeat;
+    float: left;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao2:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao ul .imagem_inspiracao3{
+    width: calc(50% - 7px);
+    height: 400px;
+    background-image: url('../images/inspiracao_home/cinqueterre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    float: left;
+    margin-right: 7px;
+    border-radius: 5px;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao3:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao ul .imagem_inspiracao4{
+    width: calc(50% - 7px);
+    height: 400px;
+    background-image: url('../images/inspiracao_home/zadar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    float: left;
+    margin-left: 7px;
+    border-radius: 5px;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao4:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao ul .imagem_inspiracao5{
+    width: calc(30% - 7px);
+    height: 262px;
+    overflow: hidden;
+    background-image: url('../images/inspiracao_home/nuremberga.jpg');
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 7px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao5:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao .imagem_inspiracao6{
+    width: calc(70% - 7px);
+    height: 262px;
+    overflow: hidden;
+    background-image: url('../images/inspiracao_home/budapeste.jpg');
+    background-repeat: no-repeat;
+    margin-left: 7px;
+    float: left;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: top center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#inspiracao .imagem_inspiracao6:hover{
+    transform: scale(1.1);
+}
+
+#inspiracao .descricao_imagem{
+    padding-top: 195px;
+    padding-left: 26px;
+    color: #fff;
+}
+
+#inspiracao .descricao_imagem2{
+    padding-top: 330px;
+    padding-left: 26px;
+    color: #fff;
+}
+
+#inspiracao h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+#inspiracao p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#inspiracao_mobile .caixa_mae_inspiracao_mobile {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#inspiracao_mobile .descricao_inspiracao_mobile{
+    padding: 195px 0 0 26px;
+}
+
+#inspiracao_mobile .descricao_inspiracao_mobile2{
+    padding: 333px 0 0 26px;
+}
+
+#inspiracao_mobile h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#inspiracao_mobile p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile1{
+    width: 100%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/buzios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2{
+    width: 100%;
+    float: left;
+    height: 300px;
+    padding-top: 20px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2 img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2 li {
+    width: calc(50% - 10px);
+    float: left;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2 .separador_imagem_inspiracao {
+    width: 20px;
+    float: left;
+    height: 1px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2 .auschwitz {
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/auschwitz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile2 .nuremberga {
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/nuremberga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile3{
+    width: 100%;
+    float: left;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#inspiracao_mobile .caixa_inspiracao_mobile3 img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile3 li {
+    width: calc(50% - 10px);
+    float: left;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile3 .separador_imagem_inspiracao {
+    width: 20px;
+    float: left;
+    height: 1px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile3 .cinqueterre {
+    float: left;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/cinqueterre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile3 .zadar {
+    float: left;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/zadar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#inspiracao_mobile .caixa_inspiracao_mobile4 {
+    width: 100%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/inspiracao_home/budapeste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+}
+
+#newsletter .titulo_newsletter {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 140%;    
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding-top: 105px;
+    padding-bottom: 75px;
+}
+
+#newsletter .subscricao_newsletter{
+    height: 106px;
+    width: 60%;
+    margin-left:20%;
+}
+
+.subscricao_newsletter li{
+    width: calc(50% - 10px);
+    float: left;
+}
+
+.subscricao_newsletter li.separador{
+    width: 20px;
+    height: 1px;
+} 
+
+.subscricao_newsletter li input{
+    width: 100%;
+    height: 66px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+input{
+    text-indent: 49px;
+}
+
+#caixa_aviso_nome{
+    color: #E36464;
+    width: 100%;
+    float: left;
+    margin-top: 14px;
+    height: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+#caixa_aviso_email{
+    color: #E36464;
+    width: 100%;
+    float: left;
+    height: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.icone_correct{
+    background-image: url("../images/icones/correct.svg");
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+#newsletter .botao_subscricao_newsletter{
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+#newsletter .botao_subscricao_newsletter a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.botao_subscricao_newsletter a .fa-chevron-right{
+    display: none;
+}
+
+#newsletter .botao_subscricao_newsletter a:hover{
+    border: 1px solid #F4807F;
+    color: #fff;
+    background: #F4807F;
+}
+
+.botao_subscricao_newsletter a:hover .fa-chevron-right{
+    display: block;
+    float: right;
+    padding-right: 16px;
+}
+
+footer .menu_footer {
+    width: 60%;
+    height:30px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+footer .menu_footer li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+footer .menu_footer a{
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer .menu_footer a:hover{
+    color: #F4807F;
+    font-size: 18px;
+}
+
+footer .redes_sociais{
+    width: 40%;
+    height: 80px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+footer .redes_sociais li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+footer .redes_sociais a{
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer .redes_sociais li:hover{
+    transform: scale(1.2);
+    color: #F4807F;
+}
+
+footer .redes_sociais li:hover a{
+    color: #F4807F;
+}
+
+footer .redes_sociais p{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+footer .redes_sociais li:hover p{
+    color: #F4807F;
+    font-weight: 600;
+}
+
+footer .info_website{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+}
+
+footer .info_website a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+}
+
+footer .info_website a:hover{
+    color: #F4807F;
+    font-size: 14px;
+}
+
+footer .info_website .rights{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    float: right;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 18px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #284353;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn img{
+    width: 45px;
+    height: 65px;
+}
+
+
+/* SOBRE */
+
+header .imagem_header_sobre{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/sobre/header_sobre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_sobre1{
+    padding-top: 291px;
+    height: 150px;
+}
+
+header .texto_header_sobre{
+    width: calc(100% - 28px);
+    height: 250px;
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+header h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    padding: 25px 0;
+}
+
+header h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.titulo_home_sobre{
+    color: #666666;
+    width: calc(100% - 14px);
+    margin: 0 14px;
+    float: left;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/* DESTINOS */
+
+header .imagem_header_destinos{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/destinos/header_destinos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+header .imagem_header_destinos1{
+    padding-top: 136px;
+}
+
+header .texto_header_destinos{
+    width: calc(100% - 28px);
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.jvectormap-container{
+    background-color:transparent !important;
+}
+
+.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback{
+    display: none;
+}
+
+#world-map{
+    width: 1100px !important;
+    height: 600px !important;;
+    margin: 0 auto;
+}
+
+.espaco{
+    width: 100%;
+    height: 43px;
+    float: left;
+}
+
+#destinos_interior{
+    width: 100%;
+    float: left;
+}
+
+.bloco_destinos{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 14px;
+    margin-right: 10%;
+}
+
+.bloco_destinos li.imagem_bloco{
+    width: calc(33.33% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    position: relative;
+    transform: all.4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.bloco_destinos li.imagem_bloco:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bloco_destinos li .imagem_pais{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/germany.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais2{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/austria.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais3{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/rio.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais4{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/camboja.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais5{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/dubrovnik.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais6{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/edimburgo.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais7{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/sevilha.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais8{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/paris.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais9{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/atenas.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais10{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/budapeste.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais11{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/londres.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais12{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/irlanda.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais13{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/israel.jpeg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais14{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/roma.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais15{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/jordania.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais16{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/malta.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais17{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/kotor.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais18{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/amesterdao.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais19{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/cracovia.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais20{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/porto.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais21{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/praga.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais22{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/russia.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais23{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/vietnam.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .imagem_pais24{
+    width: 100%;
+    height: 338px;
+    /*background-image: url('../images/destinos/turquia.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_destinos li .icone{
+    width: 150px;
+    height: 175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco_destinos li .icone2{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco_destinos li .icone3{
+    width: 200px;
+    height: 175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco_destinos li h4{
+    font-size: 48px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo_home_destinos{
+    color: #666666;
+    width: calc(100% - 14px);
+    margin: 0 14px;
+    float: left;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 36px;
+}
+
+
+/*DICAS*/
+
+#header_dicas{
+    width: 100%;
+    float: left;
+    height: 467px;
+}
+
+.active_top_menu{
+    background: #597B91;
+}
+
+header .imagem_header_dicas{
+    width: 100%;
+    height: 467px;
+    background-image: url('../images/dicas/header_dicas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+#dicas_interior{
+    width: 100%;
+    float: left;
+}
+
+.titulo_home_dicas{
+    color: #666666;
+    width: calc(100% - 14px);
+    margin: 0 14px;
+    float: left;
+    text-align: center;
+    padding-bottom: 43px;
+    padding-top: 50px;
+}
+
+.bloco_dicas{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bloco_dicas li.imagem_bloco{
+    width: calc(33.33% - 14px);
+    height: 400px;
+    float: left;
+    margin: 7px 7px;
+    position: relative;
+    transition: all.2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.bloco_dicas li.imagem_bloco:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bloco_dicas li.imagem_bloco:hover .botao_dicas_interior{
+    color: #fff;
+    background: #F4807F;
+    border: none;
+}
+
+.bloco_dicas li .imagem_dica{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_dicas li .box_dicas{
+    width: 100px;
+    background: #F4807F;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#dicas_interior .box_dicas .icone{
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 27.5px 27.5px;
+}
+
+#dicas_interior .box_dicas .icone2{
+    color: #fff;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 22.5px 22.5px;
+}
+
+.bloco_dicas li h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 45%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco_dicas li p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 65%;
+    text-align: center;
+    top: 60%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    line-height: 140%;
+}
+
+.bloco_dicas li .botao_dicas_interior{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 82%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* DESTINOS RESULTADO */
+
+header .imagem_header_destinos_resultado{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/destinos/header_destino.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_destinos_resultado1{
+    padding-top: 291px;
+    height: 150px;
+}
+
+header .texto_header_destinos_resultado img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 35%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+header .texto_header_destinos_resultado{
+    width: calc(100% - 28px);
+    height: 250px;
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+header .texto_header_destinos_resultado h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    padding: 25px 0;
+}
+
+header .texto_header_destinos_resultado p{
+    font-weight: 400;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 50px;
+    text-transform: lowercase;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#dicas_destinos_resultado .caixa_dicas_destino1{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#dicas_destinos_resultado ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#dicas_destinos_resultado li{
+    width: calc(25% - 28px);
+    float: left;
+    margin: 0 14px;
+}
+
+.separador_li_dicas_destino{
+    height:20px;
+    width: 100%;
+    display:none;
+    float: left;
+}
+
+#dicas_destinos_resultado li .box_dicas{
+    width: 162px;
+    background: #F4807F;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#dicas_destinos_resultado li .box_dicas:hover{
+    transform: scale(1.1);
+}
+
+#dicas_destinos_resultado li a{
+    text-decoration: none;
+}
+
+#dicas_destinos_resultado li i{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 51px 58.5px;
+}
+
+#dicas_destinos_resultado li img{
+    color: #fff;
+    height: 66.7px;
+    width: 75px;
+    text-align: center;
+    padding: 47.65px 43.5px;
+}
+
+#dicas_destinos_resultado li h6{
+    padding-top: 25px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#cards_destinos_resultado{
+    width: 100%;
+    float: left;
+}
+
+.bloco_cards{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bloco_cards li.card{
+    width: calc(33.33% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    position: relative;
+    transition: 2s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.bloco_cards li.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bloco_cards li .conteudo_card{
+    width: 100%;
+    height: 338px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_cards .conteudo_card img{
+    width: 100%;
+    height: 338px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+}
+
+.bloco_cards li .texto_card{
+    width: 70%;
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco_cards .texto_card h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 140%;    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.conteudo_card_hover{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 338px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 5px;
+    background: #597B91;
+}
+
+.bloco_cards .conteudo_card_hover p{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;    
+    color: #fff;
+    text-align: center;    
+    width: 70%;
+    top: 50%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+
+/* DESTINOS RESULTADO INTERIOR */
+
+header .imagem_header_destinos_resultado_interior{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/destinos/resultado_interior/header_destino_interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_destinos_resultado_interior1{
+    padding-top: 291px;
+}
+
+header .texto_header_destinos_resultado_interior img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 35%;   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+header .texto_header_destinos_resultado_interior{
+    width: calc(100% - 28px);
+    height: 250px;
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+header .texto_header_destinos_resultado_interior h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    padding: 25px 0;
+}
+
+header .texto_header_destinos_resultado_interior h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#sobre_roteiro{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#sobre_roteiro .imagem_roteiro_interior{
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+#sobre_roteiro .imagem_roteiro_interior img{
+    width: 70%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    height: 350px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#sobre_roteiro .texto_roteiro_interior{
+    width: 50%;
+    float: right;
+}
+
+#sobre_roteiro .texto_roteiro_interior p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.carrossel{
+    width: 100%;
+    float: left;
+    height: 200px;
+}
+
+#indice_roteiro .indice_carrossel_responsive .lista_indice{
+    width: calc(98% - 14px);
+    height: 90px;
+    background: #DCDCDC;
+    margin: 15px 7px 15px 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#indice_roteiro .indice_carrossel_responsive .lista_indice:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.indice_carrossel_responsive .lista_indice i{
+    position: relative;
+    color: #284353;
+    top: 50%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+}
+
+#indice_roteiro .lista_indice p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    float: left;
+    color: #284353;
+    position: relative;
+    top: 50%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding-top: 150px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 35px;
+    line-height: 1;
+    color: #284353;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: 89%;
+}
+
+.slick-next {
+    right: 4%;
+}
+
+#roteiro{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#roteiro #informacao_roteiro_munique{
+    width: 100%;
+    display: block;
+}
+
+#roteiro #informacao_roteiro_nuremberga{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_colditz{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_nordhausen{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_berlim{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_gdansk{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_varsovia{
+    width: 100%;
+    display: none;
+}
+
+#roteiro #informacao_roteiro_cracovia{
+    width: 100%;
+    display: none;
+}
+
+#roteiro .blocos_info_local{
+    width: 40%;
+    float: left;
+    display: block;
+}
+
+#roteiro .blocos_info_local .temperatura_local{
+    width: 60%;
+    background: #F4807F;
+    height: 250px;
+    margin: 0 20% 10px 20%;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#roteiro .blocos_info_local .temperatura_local:hover{
+    transform: scale(1.1);
+}
+
+
+#roteiro .blocos_info_local .hora_local{
+    width: 60%;
+    background: #F4807F;
+    height: 250px;
+    margin: 10px 20% 0 20%;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#roteiro .blocos_info_local .hora_local:hover{
+    transform: scale(1.1);
+}
+
+#roteiro .texto_roteiro{
+    width: 45%;
+    float: left;
+    display: block;
+}
+
+#roteiro h4{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#roteiro p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 140%;
+}
+
+#roteiro .temperatura_local h4{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 113px;
+}
+
+#roteiro .hora_local h4{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 113px;
+}
+
+#roteiro .slider_fotos_roteiro{
+    float: left;
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+
+}
+
+#roteiro .slider_fotos_roteiro img{
+    width: calc(100% - 14px);
+    margin-right: 7px;
+    margin-left: 7px;
+    height: 350px;
+    z-index: 999;
+}
+
+.slider_fotos_roteiro .slick-dots {
+    bottom: 40px;
+    font-size: 15px;
+    top: 380px;
+}
+
+.slider_fotos_roteiro .slick-dots button:before {
+    color: #DCDCDC;
+    font-size: 15px;
+    opacity: 1;
+}
+
+#roteiro .caixa_dicas_destino_interior{
+    width: 100%;
+    float: left;
+    /*padding-bottom: 50px;*/
+    padding-top: 100px;
+}
+
+#roteiro .caixa_dicas_destino_interior ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#roteiro .caixa_dicas_destino_interior li{
+    width: calc(25% - 28px);
+    float: left;
+    margin: 0 14px;
+}
+
+.separador_li_dicas_destino_interior{
+    height:20px;
+    width: 100%;
+    display:none;
+    float: left;
+}
+
+#roteiro li .box_dicas{
+    width: 162px;
+    background: #F4807F;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#roteiro li .box_dicas:hover{
+    transform: scale(1.1);
+}
+
+#roteiro li a{
+    text-decoration: none;
+}
+
+#roteiro li i{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 51px 58.5px;
+}
+
+#roteiro li img{
+    color: #fff;
+    height: 66.7px;
+    width: 75px;
+    text-align: center;
+    padding: 47.65px 43.5px;
+}
+
+#roteiro li h6{
+    padding-top: 25px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* INSPIRAÇÃO */
+
+header .imagem_header_inspiracao{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/inspiracao/header_inspiracao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_inspiracao1{
+    padding-top: 291px;
+    height: 150px;
+}
+
+header .texto_header_inspiracao{
+    width: calc(100% - 28px);
+    height: 250px;
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* CONTACTOS */
+
+header .imagem_header_contactos{
+    width: 100%;
+    height: 950px;
+    background-image: url('../images/contactos/header_contacts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_contactos1{
+    padding-top: 141px;
+    height: 150px;
+}
+
+header .texto_header_contactos {
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+header .texto_header_contactos h3{
+    padding-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 140%;    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #fff;
+}
+
+header .texto_header_contactos p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 140%;    
+    font-size: 16px;
+    color: #fff;
+    text-transform: none;
+}
+
+.imagem_header_contactos .formulario_contacto{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+}
+
+.formulario_contacto li.contacto_input_nome{
+    width: 49%;
+    float: left;
+    height: 66px;
+}
+
+.formulario_contacto li.contacto_input_email{
+    width: 49%;
+    float: left;
+    height: 66px;
+}
+
+.formulario_contacto li.separador{
+    width: 1%;
+    height: 1px;
+    float: left;
+} 
+
+.formulario_contacto li input{
+    width: 100%;
+    height: 66px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+input{
+    text-indent: 49px;
+}
+
+.formulario_contacto .contacto_comentario {
+    width: 99%;
+    float: left;
+    margin-top: 52px;
+    border-radius: 5px;
+}
+
+#contactos_comentario{
+    width: 100%;
+    float: left;
+    border-radius:5px;
+    text-indent: 49px;
+    padding-top: 20px;
+}
+
+.imagem_header_contactos .botao_contacto{
+    margin-left: 10%;
+    margin-top: 14px;
+}
+
+.imagem_header_contactos .botao_contacto a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 18px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.botao_contacto .fa-chevron-right{
+    display: none;
+}
+
+.botao_contacto a:hover{
+    border: 1px solid #F4807F;
+    color: #fff;
+    background: #F4807F;
+}
+
+.botao_contacto a:hover .fa-chevron-right{
+    display: block;
+    float: right;
+    padding-right: 16px;
+}
+
+.margem{
+    width: 100%;
+    height: 43px;
+    float: left;
+}
+
+.overlay {
+    width: 80%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    display: none;
+
+}
+
+/* POLÍTICA DE PRIVACIDADE */
+
+header .imagem_header_privacidade{
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/privacidade/header_privacidade.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .imagem_header_privacidade1{
+    padding-top: 291px;
+}
+
+header .texto_header_privacidade{
+    width: calc(100% - 28px);
+    height: 250px;
+    margin: 0 14px; 
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+header .texto_header_privacidade h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    padding: 25px 0;
+}
+
+#politica_privacidade{
+    width: 100%;
+    float: left;
+}
+
+#politica_privacidade .texto_politica_privacidade{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    float: left;
+    padding-top: 50px;
+}
+
+#politica_privacidade .texto_politica_privacidade .coluna1{
+    width: 48%;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    float: left;
+}
+
+#politica_privacidade .texto_politica_privacidade .coluna2{
+    width: 48%;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    float: right;
+}
+
+/* ADMIN */ 
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .moldura{
+    width: 50%;
+    float: left;
+    height: auto;
+    background-image: url("../images/admin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.wrapper .login{
+    width: 50%;
+    float: left;
+    padding-top: 250px;
+}
+
+.login form{
+    height: 330px;
+
+}
+
+.login input {
+    width: 80%;
+    margin: 20px 10%;
+    color: #666;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    display: block;
+    height: 50px;
+    line-height: 48px;
+    outline: none;
+    border-bottom: 1px solid #666;
+    box-sizing: border-box;
+    float: left;  
+    font-family: 'Lato', sans-serif;
+}
+
+.login input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    font-size: 16px;
+}
+ 
+.login li a{
+    color: #666;
+    height: 30px;
+    float: left;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.login li a:hover{
+    color: #3b76b1;
+}
+
+.login button {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    color: #F4807F;
+    text-decoration: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    border: 1px solid #F4807F;
+    margin: 0 auto;
+    
+}
+
+.login button:hover {
+    background: #F4807F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login .mensagem_erro{
+    width: 100%;
+    color: red;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.wrapper .menu_admin{
+    background: #284353;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
+
+.wrapper .menu_admin ul{
+    width: 100%;
+
+    float: left;
+}
+
+.wrapper .menu_admin li{
+    color: #fff;
+    float: left;
+    width: 14.28%;
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper .formulario_insercao_dados{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1000px;
+}
+
+.formulario_insercao_dados h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.formulario_insercao_dados li input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    display: block;
+    height: 50px;
+    line-height: 48px;
+    border-bottom: 1px solid #666;
+    box-sizing: border-box;
+    float: left;  
+    font-family: 'Lato', sans-serif;
+}
+
+.formulario_insercao_dados input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    font-size: 16px;
+    visibility: hidden;
+}
+
+.formulario_insercao_dados .botao_inserir_dados{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    color: #F4807F;
+    text-decoration: none;
+    padding: 16px 0;
+    text-transform: uppercase;
+    border: 1px solid #F4807F;
+    margin: 0 auto;
+}
+
+.formulario_insercao_dados .botao_inserir_dados:hover {
+    background: #F4807F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/* ---------------------------- MEDIA QUERY --------------------------------- */
+
+@media screen and (max-width: 900px) {
+
+    #nav_desktop{
+        display: none;
+    }
+
+    #nav_mobile{
+        display: block;
+    }
+
+    #close_menu{
+        display: none;
+        color: #fff;   
+        font-size: 40px;
+        color: #fff;
+        float: right;
+        padding: 10px 0;
+        z-index: 999;
+        position: relative;
+    }
+
+    .slide .texto_slide {
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+
+    header .togle_cenas{
+        width: 100%;
+    }
+
+    #about .texto_about{
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    #about .texto_about p {
+        font-size: 16px;
+        line-height: 140%;
+        width: 100%;
+        min-height: none !important;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    #about .botao_about {
+        font-size: 28px;
+        width: 100%;
+        height: 28px;
+        border-radius: 28px;
+        padding: 14px 0;
+        font-weight: 400;
+        border: 1px solid #F4807F;
+    }        
+
+    #destinos .caixa_destinos {
+        width: 100%;
+    }
+
+    #destinos .conteudo_destinos{
+        width: calc(100% - 40px);
+        padding: 178.5px 0 20px 20px;
+    }
+
+    #destinos .conteudo_destinos h3{
+        width: 100%;
+    }
+
+    #destinos .conteudo_destinos p{
+        width: 100%;
+    } 
+
+    #destinos .conteudo_destinos a{
+        font-size: 28px;
+        width: 100%;
+        height: 28px;
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 28px;
+        padding: 14px 0;
+    }
+
+    #dicas li{
+        width: calc(50% - 20px);
+        float: left;
+        margin: 0 10px;
+    }
+
+    #dicas .caixa_dicas1, .caixa_dicas2{
+        float: left;
+        min-height: none;
+    }
+
+    #dicas .caixa_dicas2{
+        padding-top: 11px;
+        padding-bottom: 0;
+    }
+
+    .texto_dicas p{
+        padding-bottom: 50px;
+    }
+
+    #inspiracao{
+        display: none;
+    }
+
+    #inspiracao_mobile{
+        display: block;
+    }
+
+    #newsletter .titulo_newsletter{
+        width: calc(100% - 40px);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #newsletter .subscricao_newsletter{
+        width: calc(100% - 40px);
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+        float: left;
+        height: 200px;
+    }
+    
+    .subscricao_newsletter li{
+        width: 100%;
+        float: left;
+        height: 66px;
+        display: block;
+    }
+
+    .subscricao_newsletter li.separador{
+        height: 20px;
+        float: left;
+        width: 100%;
+        display: block;
+    } 
+    
+    #newsletter .botao_subscricao_newsletter{
+        float: left;
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+
+    #newsletter .botao_subscricao_newsletter a{
+        font-size: 28px;
+        width: 100%;
+        height: 28px;
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 28px;
+        padding: 14px 0;    
+    }
+
+    .menu_footer{
+        display: none;
+    }
+
+    footer .redes_sociais{
+        width: calc(100% - 40px);
+        margin: 0 20px;
+        float: left;
+    }
+
+    footer .info_website{
+        width: calc(100% - 40px);
+        margin: 0 20px;
+        height: 30px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    #dicas_destinos_resultado ul{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #dicas_destinos_resultado li {
+        width: calc(25% - 28px);
+        float: left;
+        margin: 0 14px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    #dicas_destinos_resultado ul{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #dicas_destinos_resultado li {
+        width: calc(50% - 20px);
+        float: left;
+        margin: 0 10px;
+    }
+
+    .separador_li_dicas_destino{
+        display:block;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .bloco_destinos{
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(25% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_dicas {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(25% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}    
+
+@media screen and (max-width: 1500px) and (min-width: 1280px) {
+    .bloco_destinos{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(33.33% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_dicas{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(33.33% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    #newsletter .subscricao_newsletter {
+        height: 106px;
+        width: 70%;
+        margin-left: 15%;
+    }
+}    
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+    .bloco_destinos{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(33.33% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_dicas{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(33.33% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    #newsletter .subscricao_newsletter {
+        height: 106px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+    
+}    
+
+@media screen and (max-width: 1280px) and (min-width: 1150px){
+    .bloco_cards{
+        width: 85%;
+        float: left;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 992px){
+    .bloco_cards{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) and (min-width: 900px) {
+    .bloco_cards{
+        width: 98%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 840px) {
+    .bloco_cards{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .bloco_cards li.card{
+    width: calc(50% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 840px) {
+    
+    .bloco_destinos{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(50% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_dicas{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(50% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+}    
+
+@media screen and (max-width: 992px) and (min-width: 900px){
+    
+    #newsletter .subscricao_newsletter {
+    height: 106px;
+    width: 90%;
+    margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 840px) and (min-width: 750px){
+    .bloco_dicas{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(50% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bloco_cards li.card{
+    width: calc(50% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 640px){
+    .bloco_dicas{
+        width: 98%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(50% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .bloco_cards li.card{
+    width: calc(50% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+}
+
+@media screen and (max-width: 840px) and (min-width: 640px) {
+    
+    .bloco_destinos{
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(50% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 95%;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .bloco_cards li.card{
+    width: calc(50% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+
+}    
+
+@media screen and (max-width: 640px) and (min-width: 575px)  {
+    .bloco_destinos{
+        width: 85%;
+        float: left;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(100% - 14px);
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+    
+    .bloco_dicas{
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(100% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 70%;
+        float: left;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .bloco_cards li.card{
+    width: calc(100% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .bloco_destinos{
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bloco_destinos li.imagem_bloco{
+        width: calc(100% - 14px);
+        height: 338px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+    
+    .bloco_dicas{
+        width: 75%;
+        float: left;
+        margin-bottom: 14px;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    .bloco_dicas li.imagem_bloco{
+        width: calc(100% - 14px);
+        height: 400px;
+        float: left;
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    .bloco_cards{
+        width: 75%;
+        float: left;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    .bloco_cards li.card{
+    width: calc(100% - 14px);
+    height: 338px;
+    float: left;
+    margin: 7px 7px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    #world-map{
+        width: 900px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #world-map{
+        width: 700px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    #world-map{
+        width: 600px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 720px) and (max-width: 640px){
+
+    #world-map{
+        width: 550px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 575px){
+
+    #world-map{
+        width: 500px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    #world-map{
+        width: 450px !important;
+        height: 600px !important;;
+        margin: 0 auto;
+    }
+} 
